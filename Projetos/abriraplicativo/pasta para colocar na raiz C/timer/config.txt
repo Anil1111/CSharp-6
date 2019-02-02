@@ -1,0 +1,2 @@
+C:\timer\closeServer.bat
+C:\timer\closeServer.bat

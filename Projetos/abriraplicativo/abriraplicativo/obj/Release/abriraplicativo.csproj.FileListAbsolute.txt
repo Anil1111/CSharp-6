@@ -1,0 +1,9 @@
+C:\Users\Noturno\source\repos\abriraplicativo\abriraplicativo\bin\Release\abriraplicativo.exe
+C:\Users\Noturno\source\repos\abriraplicativo\abriraplicativo\bin\Release\abriraplicativo.pdb
+C:\Users\Noturno\source\repos\abriraplicativo\abriraplicativo\obj\Release\abriraplicativo.Form1.resources
+C:\Users\Noturno\source\repos\abriraplicativo\abriraplicativo\obj\Release\abriraplicativo.Properties.Resources.resources
+C:\Users\Noturno\source\repos\abriraplicativo\abriraplicativo\obj\Release\abriraplicativo.csproj.GenerateResource.cache
+C:\Users\Noturno\source\repos\abriraplicativo\abriraplicativo\obj\Release\abriraplicativo.csproj.CoreCompileInputs.cache
+C:\Users\Noturno\source\repos\abriraplicativo\abriraplicativo\obj\Release\abriraplicativo.exe
+C:\Users\Noturno\source\repos\abriraplicativo\abriraplicativo\obj\Release\abriraplicativo.pdb
+C:\Users\Noturno\source\repos\abriraplicativo\abriraplicativo\obj\Release\abriraplicativo.csprojAssemblyReference.cache

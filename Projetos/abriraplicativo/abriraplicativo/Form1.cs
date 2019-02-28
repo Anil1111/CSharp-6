@@ -25,6 +25,29 @@ namespace abriraplicativo
         private void btnAbrir_Click(object sender, EventArgs e)
         {
 
+
+
+
+            //Interaction.Shell("ping", AppWinStyle.Hide);
+
+
+
+            /*var proc1 = new ProcessStartInfo();
+            string anyCommand;
+            proc1.UseShellExecute = true;
+
+            proc1.WorkingDirectory = @"C:\Windows\System32";
+
+            proc1.FileName = @"C:\Windows\System32\cmd.exe";
+            proc1.Verb = "runas";
+            proc1.Arguments = "/c " + "ping -t 8.8.8.8";
+            proc1.WindowStyle = ProcessWindowStyle.Hidden;
+            Process.Start(proc1);
+            */
+           /* string strCmdText;
+            strCmdText = "/C "+;
+            Process.Start("CMD.exe", strCmdText);*/
+            
             caminhoDoArquivo(txtCaminhoDoArquivo.Text); // abre o server o arquivo bat
 
         }
@@ -34,11 +57,19 @@ namespace abriraplicativo
 
         public void caminhoDoArquivo(string caminho)
         {
-            caminhoArquivo = caminho;
+/*
+            Process notePad = new Process();
+            notePad.StartInfo.FileName = caminho;
+            //-notePad.StartInfo.Arguments = "mytextfile.txt";
+            notePad.Start();
+            notePad.Close();*/
 
-            Process.Start(caminhoArquivo);
+            
+            caminhoArquivo = "/C "+caminho;
+
+            Process.Start("CMD.exe", caminhoArquivo);
             caminhoArquivo = "";
-
+            
         }
 
         private void btnFechar_Click(object sender, EventArgs e)
@@ -82,7 +113,7 @@ namespace abriraplicativo
                     }
 
 
-
+                   
                  }
 
 
@@ -117,6 +148,11 @@ namespace abriraplicativo
             {
                 txtHoraServer.AppendText(hora[aux] + Environment.NewLine);
             }
+
+        }
+
+        private void timer1_Tick_1(object sender, EventArgs e)
+        {
 
         }
     }

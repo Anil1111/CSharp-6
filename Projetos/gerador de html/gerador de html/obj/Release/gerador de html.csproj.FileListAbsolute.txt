@@ -1,0 +1,9 @@
+C:\Users\Rafa\source\repos\gerador de html\gerador de html\bin\Release\gerador de html.exe.config
+C:\Users\Rafa\source\repos\gerador de html\gerador de html\bin\Release\gerador de html.exe
+C:\Users\Rafa\source\repos\gerador de html\gerador de html\bin\Release\gerador de html.pdb
+C:\Users\Rafa\source\repos\gerador de html\gerador de html\obj\Release\gerador_de_html.Form1.resources
+C:\Users\Rafa\source\repos\gerador de html\gerador de html\obj\Release\gerador_de_html.Properties.Resources.resources
+C:\Users\Rafa\source\repos\gerador de html\gerador de html\obj\Release\gerador de html.csproj.GenerateResource.cache
+C:\Users\Rafa\source\repos\gerador de html\gerador de html\obj\Release\gerador de html.csproj.CoreCompileInputs.cache
+C:\Users\Rafa\source\repos\gerador de html\gerador de html\obj\Release\gerador de html.exe
+C:\Users\Rafa\source\repos\gerador de html\gerador de html\obj\Release\gerador de html.pdb

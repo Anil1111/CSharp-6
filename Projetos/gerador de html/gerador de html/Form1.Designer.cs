@@ -63,6 +63,23 @@
             this.btnCarregar = new System.Windows.Forms.Button();
             this.txtdadosDosCampos = new System.Windows.Forms.TextBox();
             this.btnReload = new System.Windows.Forms.Button();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.txthtml1 = new System.Windows.Forms.TextBox();
+            this.txtHtml2 = new System.Windows.Forms.TextBox();
+            this.txthtml3 = new System.Windows.Forms.TextBox();
+            this.label17 = new System.Windows.Forms.Label();
+            this.btnHtml1 = new System.Windows.Forms.Button();
+            this.label18 = new System.Windows.Forms.Label();
+            this.txtimg = new System.Windows.Forms.TextBox();
+            this.label19 = new System.Windows.Forms.Label();
+            this.btnhtml2 = new System.Windows.Forms.Button();
+            this.label20 = new System.Windows.Forms.Label();
+            this.txtimgwats = new System.Windows.Forms.TextBox();
+            this.btnhtml3 = new System.Windows.Forms.Button();
+            this.label21 = new System.Windows.Forms.Label();
+            this.btnlimpartodososcampos = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtNomeEmpresa
@@ -211,9 +228,9 @@
             // 
             // btnGerar
             // 
-            this.btnGerar.Location = new System.Drawing.Point(339, 215);
+            this.btnGerar.Location = new System.Drawing.Point(446, 7);
             this.btnGerar.Name = "btnGerar";
-            this.btnGerar.Size = new System.Drawing.Size(70, 47);
+            this.btnGerar.Size = new System.Drawing.Size(90, 25);
             this.btnGerar.TabIndex = 21;
             this.btnGerar.Text = "Gerar HTML";
             this.btnGerar.UseVisualStyleBackColor = true;
@@ -238,25 +255,25 @@
             // 
             // txtGeradorHtmlVisualizador
             // 
-            this.txtGeradorHtmlVisualizador.Location = new System.Drawing.Point(338, 12);
+            this.txtGeradorHtmlVisualizador.Location = new System.Drawing.Point(338, 38);
             this.txtGeradorHtmlVisualizador.Multiline = true;
             this.txtGeradorHtmlVisualizador.Name = "txtGeradorHtmlVisualizador";
-            this.txtGeradorHtmlVisualizador.Size = new System.Drawing.Size(198, 196);
+            this.txtGeradorHtmlVisualizador.Size = new System.Drawing.Size(198, 150);
             this.txtGeradorHtmlVisualizador.TabIndex = 23;
             // 
             // txtGeradordeEmpresas
             // 
-            this.txtGeradordeEmpresas.Location = new System.Drawing.Point(542, 12);
+            this.txtGeradordeEmpresas.Location = new System.Drawing.Point(542, 38);
             this.txtGeradordeEmpresas.Multiline = true;
             this.txtGeradordeEmpresas.Name = "txtGeradordeEmpresas";
-            this.txtGeradordeEmpresas.Size = new System.Drawing.Size(197, 196);
+            this.txtGeradordeEmpresas.Size = new System.Drawing.Size(197, 150);
             this.txtGeradordeEmpresas.TabIndex = 24;
             // 
             // btngerarPagina
             // 
-            this.btngerarPagina.Location = new System.Drawing.Point(415, 214);
+            this.btngerarPagina.Location = new System.Drawing.Point(649, 9);
             this.btngerarPagina.Name = "btngerarPagina";
-            this.btngerarPagina.Size = new System.Drawing.Size(70, 47);
+            this.btngerarPagina.Size = new System.Drawing.Size(90, 25);
             this.btngerarPagina.TabIndex = 22;
             this.btngerarPagina.Text = "Gerar Pagina";
             this.btngerarPagina.UseVisualStyleBackColor = true;
@@ -312,9 +329,9 @@
             // 
             // btnsalvar
             // 
-            this.btnsalvar.Location = new System.Drawing.Point(339, 266);
+            this.btnsalvar.Location = new System.Drawing.Point(852, 10);
             this.btnsalvar.Name = "btnsalvar";
-            this.btnsalvar.Size = new System.Drawing.Size(70, 47);
+            this.btnsalvar.Size = new System.Drawing.Size(90, 24);
             this.btnsalvar.TabIndex = 30;
             this.btnsalvar.Text = "Salvar";
             this.btnsalvar.UseVisualStyleBackColor = true;
@@ -323,16 +340,16 @@
             // cbArquivosConfigs
             // 
             this.cbArquivosConfigs.FormattingEnabled = true;
-            this.cbArquivosConfigs.Location = new System.Drawing.Point(339, 319);
+            this.cbArquivosConfigs.Location = new System.Drawing.Point(506, 376);
             this.cbArquivosConfigs.Name = "cbArquivosConfigs";
-            this.cbArquivosConfigs.Size = new System.Drawing.Size(146, 21);
+            this.cbArquivosConfigs.Size = new System.Drawing.Size(152, 21);
             this.cbArquivosConfigs.TabIndex = 31;
             // 
             // btnCarregar
             // 
-            this.btnCarregar.Location = new System.Drawing.Point(415, 266);
+            this.btnCarregar.Location = new System.Drawing.Point(422, 376);
             this.btnCarregar.Name = "btnCarregar";
-            this.btnCarregar.Size = new System.Drawing.Size(70, 47);
+            this.btnCarregar.Size = new System.Drawing.Size(78, 48);
             this.btnCarregar.TabIndex = 32;
             this.btnCarregar.Text = "Carregar";
             this.btnCarregar.UseVisualStyleBackColor = true;
@@ -340,27 +357,194 @@
             // 
             // txtdadosDosCampos
             // 
-            this.txtdadosDosCampos.Location = new System.Drawing.Point(542, 212);
+            this.txtdadosDosCampos.Location = new System.Drawing.Point(745, 38);
             this.txtdadosDosCampos.Multiline = true;
             this.txtdadosDosCampos.Name = "txtdadosDosCampos";
-            this.txtdadosDosCampos.Size = new System.Drawing.Size(197, 124);
+            this.txtdadosDosCampos.Size = new System.Drawing.Size(197, 150);
             this.txtdadosDosCampos.TabIndex = 33;
             // 
             // btnReload
             // 
-            this.btnReload.Location = new System.Drawing.Point(491, 318);
+            this.btnReload.Location = new System.Drawing.Point(506, 403);
             this.btnReload.Name = "btnReload";
-            this.btnReload.Size = new System.Drawing.Size(45, 21);
+            this.btnReload.Size = new System.Drawing.Size(153, 21);
             this.btnReload.TabIndex = 34;
             this.btnReload.Text = "Reload";
             this.btnReload.UseVisualStyleBackColor = true;
             this.btnReload.Click += new System.EventHandler(this.btnReload_Click);
             // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(338, 15);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(81, 13);
+            this.label14.TabIndex = 35;
+            this.label14.Text = "Codigo Rodape";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(542, 15);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(84, 13);
+            this.label15.TabIndex = 36;
+            this.label15.Text = "Pagina Empresa";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(745, 15);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(47, 13);
+            this.label16.TabIndex = 37;
+            this.label16.Text = "Txt Final";
+            // 
+            // txthtml1
+            // 
+            this.txthtml1.Location = new System.Drawing.Point(337, 220);
+            this.txthtml1.Multiline = true;
+            this.txthtml1.Name = "txthtml1";
+            this.txthtml1.Size = new System.Drawing.Size(198, 150);
+            this.txthtml1.TabIndex = 38;
+            // 
+            // txtHtml2
+            // 
+            this.txtHtml2.Location = new System.Drawing.Point(540, 220);
+            this.txtHtml2.Multiline = true;
+            this.txtHtml2.Name = "txtHtml2";
+            this.txtHtml2.Size = new System.Drawing.Size(198, 150);
+            this.txtHtml2.TabIndex = 39;
+            // 
+            // txthtml3
+            // 
+            this.txthtml3.Location = new System.Drawing.Point(745, 220);
+            this.txthtml3.Multiline = true;
+            this.txthtml3.Name = "txthtml3";
+            this.txthtml3.Size = new System.Drawing.Size(198, 150);
+            this.txthtml3.TabIndex = 40;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(338, 203);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(37, 13);
+            this.label17.TabIndex = 41;
+            this.label17.Text = "Html 1";
+            // 
+            // btnHtml1
+            // 
+            this.btnHtml1.Location = new System.Drawing.Point(445, 191);
+            this.btnHtml1.Name = "btnHtml1";
+            this.btnHtml1.Size = new System.Drawing.Size(90, 25);
+            this.btnHtml1.TabIndex = 42;
+            this.btnHtml1.Text = "Gerar HTML 1";
+            this.btnHtml1.UseVisualStyleBackColor = true;
+            this.btnHtml1.Click += new System.EventHandler(this.btnHtml1_Click);
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(25, 349);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(69, 13);
+            this.label18.TabIndex = 44;
+            this.label18.Text = "Link Img Mail";
+            // 
+            // txtimg
+            // 
+            this.txtimg.Location = new System.Drawing.Point(96, 346);
+            this.txtimg.Name = "txtimg";
+            this.txtimg.Size = new System.Drawing.Size(235, 20);
+            this.txtimg.TabIndex = 43;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(541, 203);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(37, 13);
+            this.label19.TabIndex = 45;
+            this.label19.Text = "Html 2";
+            // 
+            // btnhtml2
+            // 
+            this.btnhtml2.Location = new System.Drawing.Point(648, 191);
+            this.btnhtml2.Name = "btnhtml2";
+            this.btnhtml2.Size = new System.Drawing.Size(90, 25);
+            this.btnhtml2.TabIndex = 46;
+            this.btnhtml2.Text = "Gerar HTML 2";
+            this.btnhtml2.UseVisualStyleBackColor = true;
+            this.btnhtml2.Click += new System.EventHandler(this.btnhtml2_Click);
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(19, 375);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(75, 13);
+            this.label20.TabIndex = 48;
+            this.label20.Text = "Link Img Wats";
+            // 
+            // txtimgwats
+            // 
+            this.txtimgwats.Location = new System.Drawing.Point(96, 372);
+            this.txtimgwats.Name = "txtimgwats";
+            this.txtimgwats.Size = new System.Drawing.Size(235, 20);
+            this.txtimgwats.TabIndex = 47;
+            // 
+            // btnhtml3
+            // 
+            this.btnhtml3.Location = new System.Drawing.Point(853, 191);
+            this.btnhtml3.Name = "btnhtml3";
+            this.btnhtml3.Size = new System.Drawing.Size(90, 25);
+            this.btnhtml3.TabIndex = 50;
+            this.btnhtml3.Text = "Gerar HTML 3";
+            this.btnhtml3.UseVisualStyleBackColor = true;
+            this.btnhtml3.Click += new System.EventHandler(this.btnhtml3_Click);
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(746, 203);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(37, 13);
+            this.label21.TabIndex = 49;
+            this.label21.Text = "Html 3";
+            // 
+            // btnlimpartodososcampos
+            // 
+            this.btnlimpartodososcampos.Location = new System.Drawing.Point(338, 375);
+            this.btnlimpartodososcampos.Name = "btnlimpartodososcampos";
+            this.btnlimpartodososcampos.Size = new System.Drawing.Size(78, 48);
+            this.btnlimpartodososcampos.TabIndex = 51;
+            this.btnlimpartodososcampos.Text = "Limpar Todos os campo";
+            this.btnlimpartodososcampos.UseVisualStyleBackColor = true;
+            this.btnlimpartodososcampos.Click += new System.EventHandler(this.btnlimpartodososcampos_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(736, 461);
+            this.ClientSize = new System.Drawing.Size(952, 434);
+            this.Controls.Add(this.btnlimpartodososcampos);
+            this.Controls.Add(this.btnhtml3);
+            this.Controls.Add(this.label21);
+            this.Controls.Add(this.label20);
+            this.Controls.Add(this.txtimgwats);
+            this.Controls.Add(this.btnhtml2);
+            this.Controls.Add(this.label19);
+            this.Controls.Add(this.label18);
+            this.Controls.Add(this.txtimg);
+            this.Controls.Add(this.btnHtml1);
+            this.Controls.Add(this.label17);
+            this.Controls.Add(this.txthtml3);
+            this.Controls.Add(this.txtHtml2);
+            this.Controls.Add(this.txthtml1);
+            this.Controls.Add(this.label16);
+            this.Controls.Add(this.label15);
+            this.Controls.Add(this.label14);
             this.Controls.Add(this.btnReload);
             this.Controls.Add(this.txtdadosDosCampos);
             this.Controls.Add(this.btnCarregar);
@@ -442,6 +626,23 @@
         private System.Windows.Forms.Button btnCarregar;
         private System.Windows.Forms.TextBox txtdadosDosCampos;
         private System.Windows.Forms.Button btnReload;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.TextBox txthtml1;
+        private System.Windows.Forms.TextBox txtHtml2;
+        private System.Windows.Forms.TextBox txthtml3;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Button btnHtml1;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.TextBox txtimg;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Button btnhtml2;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.TextBox txtimgwats;
+        private System.Windows.Forms.Button btnhtml3;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Button btnlimpartodososcampos;
     }
 }
 

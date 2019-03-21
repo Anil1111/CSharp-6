@@ -37,10 +37,10 @@ namespace gerador_de_html
         /*salvas as paginas html e pagina empresa e salva no outro txt as configs*/
         private void btnsalvar_Click(object sender, EventArgs e)
         {
-            System.IO.File.WriteAllText(@"html.txt", txtGeradorHtmlVisualizador.Text);
-            System.IO.File.WriteAllText(@"pagina.txt", txtGeradordeEmpresas.Text);
+            //System.IO.File.WriteAllText(@"html.txt", txtGeradorHtmlVisualizador.Text);
+            //System.IO.File.WriteAllText(@"pagina.txt", txtGeradordeEmpresas.Text);
             salvartodososcampostxt();
-            System.IO.File.WriteAllText(txtNomeEmpresa.Text+".ini", txtdadosDosCampos.Text);
+            System.IO.File.WriteAllText(txtNomeEmpresa.Text + ".ini", txtdadosDosCampos.Text);
             //System.IO.File.WriteAllText(txtNomeEmpresa.Text+".ini", );
 
 

@@ -18,3 +18,13 @@ C:\Users\Rafa\Desktop\gerador de html\gerador de html\obj\Debug\gerador de html.
 C:\Users\Rafa\Desktop\gerador de html\gerador de html\obj\Debug\gerador de html.csproj.CoreCompileInputs.cache
 C:\Users\Rafa\Desktop\gerador de html\gerador de html\obj\Debug\gerador de html.exe
 C:\Users\Rafa\Desktop\gerador de html\gerador de html\obj\Debug\gerador de html.pdb
+C:\Users\Rafa\Documents\GitHub\CSharp\Projetos\gerador de html\gerador de html\bin\Debug\gerador de html.exe.config
+C:\Users\Rafa\Documents\GitHub\CSharp\Projetos\gerador de html\gerador de html\bin\Debug\gerador de html.exe
+C:\Users\Rafa\Documents\GitHub\CSharp\Projetos\gerador de html\gerador de html\bin\Debug\gerador de html.pdb
+C:\Users\Rafa\Documents\GitHub\CSharp\Projetos\gerador de html\gerador de html\obj\Debug\gerador de html.csprojAssemblyReference.cache
+C:\Users\Rafa\Documents\GitHub\CSharp\Projetos\gerador de html\gerador de html\obj\Debug\gerador_de_html.Form1.resources
+C:\Users\Rafa\Documents\GitHub\CSharp\Projetos\gerador de html\gerador de html\obj\Debug\gerador_de_html.Properties.Resources.resources
+C:\Users\Rafa\Documents\GitHub\CSharp\Projetos\gerador de html\gerador de html\obj\Debug\gerador de html.csproj.GenerateResource.cache
+C:\Users\Rafa\Documents\GitHub\CSharp\Projetos\gerador de html\gerador de html\obj\Debug\gerador de html.csproj.CoreCompileInputs.cache
+C:\Users\Rafa\Documents\GitHub\CSharp\Projetos\gerador de html\gerador de html\obj\Debug\gerador de html.exe
+C:\Users\Rafa\Documents\GitHub\CSharp\Projetos\gerador de html\gerador de html\obj\Debug\gerador de html.pdb

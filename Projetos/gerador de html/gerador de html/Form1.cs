@@ -182,6 +182,7 @@ namespace gerador_de_html
             txtdadosDosCampos.Text += System.Environment.NewLine + txtLat.Text;
             txtdadosDosCampos.Text += System.Environment.NewLine + txtLog.Text;
             txtdadosDosCampos.Text += System.Environment.NewLine + txtimg.Text;
+            txtdadosDosCampos.Text += System.Environment.NewLine + txtimgwats.Text;
         }
 
 

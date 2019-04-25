@@ -1,0 +1,9 @@
+C:\Users\Rafa\source\repos\conversor\conversor\bin\Debug\conversor.exe
+C:\Users\Rafa\source\repos\conversor\conversor\bin\Debug\conversor.pdb
+C:\Users\Rafa\source\repos\conversor\conversor\obj\Debug\conversor.csprojAssemblyReference.cache
+C:\Users\Rafa\source\repos\conversor\conversor\obj\Debug\conversor.Form1.resources
+C:\Users\Rafa\source\repos\conversor\conversor\obj\Debug\conversor.Properties.Resources.resources
+C:\Users\Rafa\source\repos\conversor\conversor\obj\Debug\conversor.csproj.GenerateResource.cache
+C:\Users\Rafa\source\repos\conversor\conversor\obj\Debug\conversor.csproj.CoreCompileInputs.cache
+C:\Users\Rafa\source\repos\conversor\conversor\obj\Debug\conversor.exe
+C:\Users\Rafa\source\repos\conversor\conversor\obj\Debug\conversor.pdb

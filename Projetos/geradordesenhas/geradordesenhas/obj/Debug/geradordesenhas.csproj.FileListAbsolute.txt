@@ -1,0 +1,10 @@
+C:\Users\usuario\source\repos\geradordesenhas\geradordesenhas\bin\Debug\geradordesenhas.exe.config
+C:\Users\usuario\source\repos\geradordesenhas\geradordesenhas\bin\Debug\geradordesenhas.exe
+C:\Users\usuario\source\repos\geradordesenhas\geradordesenhas\bin\Debug\geradordesenhas.pdb
+C:\Users\usuario\source\repos\geradordesenhas\geradordesenhas\obj\Debug\geradordesenhas.csprojAssemblyReference.cache
+C:\Users\usuario\source\repos\geradordesenhas\geradordesenhas\obj\Debug\geradordesenhas.Properties.Resources.resources
+C:\Users\usuario\source\repos\geradordesenhas\geradordesenhas\obj\Debug\geradordesenhas.csproj.GenerateResource.cache
+C:\Users\usuario\source\repos\geradordesenhas\geradordesenhas\obj\Debug\geradordesenhas.csproj.CoreCompileInputs.cache
+C:\Users\usuario\source\repos\geradordesenhas\geradordesenhas\obj\Debug\geradordesenhas.exe
+C:\Users\usuario\source\repos\geradordesenhas\geradordesenhas\obj\Debug\geradordesenhas.pdb
+C:\Users\usuario\source\repos\geradordesenhas\geradordesenhas\obj\Debug\geradordesenhas.GeradorSenhas.resources

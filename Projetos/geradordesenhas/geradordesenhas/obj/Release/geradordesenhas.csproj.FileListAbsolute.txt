@@ -1,0 +1,9 @@
+C:\Users\usuario\Documents\GitHub\CSharp\Projetos\geradordesenhas\geradordesenhas\bin\Release\geradordesenhas.exe.config
+C:\Users\usuario\Documents\GitHub\CSharp\Projetos\geradordesenhas\geradordesenhas\bin\Release\geradordesenhas.exe
+C:\Users\usuario\Documents\GitHub\CSharp\Projetos\geradordesenhas\geradordesenhas\bin\Release\geradordesenhas.pdb
+C:\Users\usuario\Documents\GitHub\CSharp\Projetos\geradordesenhas\geradordesenhas\obj\Release\geradordesenhas.GeradorSenhas.resources
+C:\Users\usuario\Documents\GitHub\CSharp\Projetos\geradordesenhas\geradordesenhas\obj\Release\geradordesenhas.Properties.Resources.resources
+C:\Users\usuario\Documents\GitHub\CSharp\Projetos\geradordesenhas\geradordesenhas\obj\Release\geradordesenhas.csproj.GenerateResource.cache
+C:\Users\usuario\Documents\GitHub\CSharp\Projetos\geradordesenhas\geradordesenhas\obj\Release\geradordesenhas.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Documents\GitHub\CSharp\Projetos\geradordesenhas\geradordesenhas\obj\Release\geradordesenhas.exe
+C:\Users\usuario\Documents\GitHub\CSharp\Projetos\geradordesenhas\geradordesenhas\obj\Release\geradordesenhas.pdb

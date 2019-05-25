@@ -51,6 +51,7 @@
             this.btnMenosQuantiadesenhasgeradas = new System.Windows.Forms.Button();
             this.btnmaisQuantiadesenhasgeradas = new System.Windows.Forms.Button();
             this.txtQuantiadeSenhasgeradas = new System.Windows.Forms.TextBox();
+            this.btnSalvar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtSaidasenha
@@ -260,11 +261,22 @@
             this.txtQuantiadeSenhasgeradas.TabIndex = 18;
             this.txtQuantiadeSenhasgeradas.Text = "1";
             // 
+            // btnSalvar
+            // 
+            this.btnSalvar.Location = new System.Drawing.Point(12, 426);
+            this.btnSalvar.Name = "btnSalvar";
+            this.btnSalvar.Size = new System.Drawing.Size(76, 28);
+            this.btnSalvar.TabIndex = 22;
+            this.btnSalvar.Text = "Salvar";
+            this.btnSalvar.UseVisualStyleBackColor = true;
+            this.btnSalvar.Click += new System.EventHandler(this.BtnSalvar_Click);
+            // 
             // GeradorSenhas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(266, 425);
+            this.ClientSize = new System.Drawing.Size(266, 466);
+            this.Controls.Add(this.btnSalvar);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.btnMenosQuantiadesenhasgeradas);
             this.Controls.Add(this.btnmaisQuantiadesenhasgeradas);
@@ -319,6 +331,7 @@
         private System.Windows.Forms.Button btnMenosQuantiadesenhasgeradas;
         private System.Windows.Forms.Button btnmaisQuantiadesenhasgeradas;
         private System.Windows.Forms.TextBox txtQuantiadeSenhasgeradas;
+        private System.Windows.Forms.Button btnSalvar;
     }
 }
 

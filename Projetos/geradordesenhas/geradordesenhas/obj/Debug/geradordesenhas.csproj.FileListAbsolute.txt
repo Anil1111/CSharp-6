@@ -8,3 +8,4 @@ C:\Users\usuario\source\repos\geradordesenhas\geradordesenhas\obj\Debug\geradord
 C:\Users\usuario\source\repos\geradordesenhas\geradordesenhas\obj\Debug\geradordesenhas.exe
 C:\Users\usuario\source\repos\geradordesenhas\geradordesenhas\obj\Debug\geradordesenhas.pdb
 C:\Users\usuario\source\repos\geradordesenhas\geradordesenhas\obj\Debug\geradordesenhas.GeradorSenhas.resources
+C:\Users\usuario\source\repos\geradordesenhas\geradordesenhas\obj\Debug\geradordesenhas.frmCaminhoparasalvar.resources

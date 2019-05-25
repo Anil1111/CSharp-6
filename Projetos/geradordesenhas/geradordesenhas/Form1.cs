@@ -98,5 +98,23 @@ namespace geradordesenhas
         {
             txtQuantiadeSenhasgeradas.Text = Convert.ToString(Convert.ToInt32(txtQuantiadeSenhasgeradas.Text) + 1);
         }
+
+        private void BtnSalvar_Click(object sender, EventArgs e)
+        {
+
+            string[] conteudodatextboxparasalvar = new string[Convert.ToInt32(txtQuantiadeSenhasgeradas.Text)];
+
+            for (int aux =0; aux < Convert.ToInt32(txtQuantiadeSenhasgeradas.Text); aux++)
+            {
+                conteudodatextboxparasalvar[aux] = txtSaidasenha.Lines[aux].ToString();
+                
+            }
+            frmCaminhoparasalvar frmSalvar = new frmCaminhoparasalvar(conteudodatextboxparasalvar);
+            frmSalvar.ShowDialog();
+        }
+
+
+
+
     }
 }
